@@ -1,0 +1,356 @@
+//variaveis
+//color
+$creme: #f5f4ef;
+$colorLink: #a3dcea;
+$azulEscuro:#0c9abe;
+$marrom: #37322f;
+$marrom-claro:#494440;
+$brancoCard: #f5f4ef;
+$cinzaClaro:#908e7f;
+$cremeCinza: #dcdace;
+
+//font
+$fontLato: 'Lato', sans-serif;
+$textMaiusculo: uppercase;
+
+body{
+  background-color: $creme;
+  background-image: url('../img/FUNDO.png');
+}
+
+.header{
+  padding: 15px;
+ }
+ .jumbotron-image{
+   position: absolute;
+   top:0;
+   z-index: -1;
+ }
+ .jumbotron-content{
+   .titulo{
+    font-family: $fontLato;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: $textMaiusculo;
+    font-size: 72px;
+    text-shadow: 0px 26px 130.2px rgba(0, 0, 0, 0.3);  
+  }
+  .subtitulo{
+    font-family: $fontLato;
+    color: #ffffff;
+    font-size: 30px;
+  }
+ }
+ 
+ .media-text{
+   color:#ffffff;
+   font-size: 24px;
+   font-family: $fontLato;
+   font-weight: normal;
+   text-align: left;
+   text-transform: $textMaiusculo;
+   margin-bottom: 0;
+ }
+ .link-inscricao{
+   font-family: $fontLato;
+   font-size: 30px;
+   font-weight: 900;
+   color:$colorLink;
+   text-transform: $textMaiusculo;
+   &:hover{
+    text-decoration: none;
+    color:$colorLink;
+   }
+ }
+ .painel{
+   background-color: $azulEscuro;
+   border-radius: 10px;
+   padding:30px;
+   box-shadow: 0px 0px 108.42px 30.58px rgba(169, 165, 165, 0.35);
+  .titulo{
+    font-size: 40px;
+    text-align: center;
+  } 
+  .informacoes{
+    color: $marrom;
+    font-size: 21px;
+    text-align: center;
+  }
+ }
+ form#hsForm_308b8bba-c5ce-4af8-8f2b-ed5c52ec106e{
+  fieldset.form-columns-2, fieldset.form-columns-1{
+    max-width: 100%;
+  }
+  label {
+    color: #fff;
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+  input#firstname-308b8bba-c5ce-4af8-8f2b-ed5c52ec106e, input#email-308b8bba-c5ce-4af8-8f2b-ed5c52ec106e, input#phone-308b8bba-c5ce-4af8-8f2b-ed5c52ec106e, input#mobilephone-308b8bba-c5ce-4af8-8f2b-ed5c52ec106e, input#company-308b8bba-c5ce-4af8-8f2b-ed5c52ec106e, select#cargo_geral-308b8bba-c5ce-4af8-8f2b-ed5c52ec106e, select#department-308b8bba-c5ce-4af8-8f2b-ed5c52ec106e, select#segmento_de_atuacao_geral-308b8bba-c5ce-4af8-8f2b-ed5c52ec106e, select{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  ul.no-list.hs-error-msgs.inputs-list {
+    list-style: none;
+    padding: 0;
+  }
+  label.hs-error-msg {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #ffffff;
+}
+  label#label-faixa_de_faturamento_clone_-308b8bba-c5ce-4af8-8f2b-ed5c52ec106e{
+    color:#ffffff
+  }
+  ul.inputs-list.multi-container{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  .actions{
+    text-align: center;
+  }
+  input.hs-button.primary.large {
+    border: 2px solid #ffffff;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 9px 5.88px 0.12px rgba(48, 40, 36, 0.26);
+    border-radius: 38px;
+    font-size: 30px;
+    font-family: $fontLato;
+    color: $azulEscuro;
+    font-weight: bold;
+    width: 270px;
+    height: 70px;
+  }
+
+ }
+
+ .modulo{
+   background-image: url('../img/modulo-opicional.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 70px;
+   padding: 50px;
+   .modulo-img{
+     text-align: right;
+   }
+  .modulo-title{
+    font-size: 54px;
+    color: $azulEscuro;
+    font-weight: 900;
+    text-transform: $textMaiusculo;
+   }
+   .modulo-text{
+     font-size: 30px;
+     color: $marrom;
+     font-family: $fontLato;
+   }
+ }
+.assunto{
+  margin-top: 100px;
+  padding: 15px;
+  .assunto-title{
+  font-size:54px; 
+  color:$marrom-claro;
+  font-family: $fontLato;
+  text-transform: $textMaiusculo;
+  font-weight: 900;
+  margin-bottom: 40px;
+    .frase-destaque{
+      color: $azulEscuro;
+    } 
+  }
+  .eventos{
+    background-image: url('../img/fundo-creme.png');
+    background-size: cover;
+    height: auto;
+    width: auto;
+    padding: 40px;
+    .card-evento{
+      background-color: $brancoCard;
+      border-radius: 10px;
+      text-align: center;
+      .card-body{ 
+        transition: 0.3s;
+        &:hover{
+        box-shadow: 0px 17px 43px 0px rgba(140, 137, 117, 0.45);
+        }
+          >.data{
+            font-family: $fontLato;
+            font-size: 36px;
+            color: $azulEscuro;
+            font-weight: 900;
+            text-align: center;
+            text-transform: $textMaiusculo;
+            >.dia{
+              font-size: 26px;
+              color:$cinzaClaro;
+            }
+          } 
+          >.title{
+            text-align: center;
+            font-size: 36px;
+            font-weight: 900;
+            font-family: $fontLato;
+            color:$cinzaClaro;
+            .title-destaque{
+              color:$azulEscuro;
+            }
+          }
+          .btn-evento{ 
+          margin-top: 2rem; 
+          margin-bottom: 2rem;
+          background-color:$azulEscuro;
+          width: 271px;
+          height: 76px;
+          color:#ffffff;
+          border-radius: 38px;
+          text-align: center;
+          border:none;
+          text-transform: $textMaiusculo;
+          font-size: 30px;
+          font-weight: 900;
+          }
+        >.sobre{
+          border-top:5px solid $cremeCinza; 
+          border-bottom:5px solid $cremeCinza; 
+          padding: 25px 0;
+          >.title{
+            font-size: 25.96px;
+            color:$azulEscuro;
+            text-transform: $textMaiusculo;
+            font-weight: 900;
+            font-family: $fontLato;
+          }
+          >.description{
+            font-size: 26px;
+            font-family: $fontLato;
+            color: $marrom;
+            font-weight: normal;
+          }
+        }
+        .palestrante{
+          margin-top: 80px;
+          margin-bottom: 80px;
+          .nome{
+            color: $azulEscuro;
+            text-transform:$textMaiusculo;
+            font-size: 25px;
+            font-weight: 900;
+          }
+          .cargo{
+            color:$marrom;
+            font-size: 25px;
+            font-weight: normal;
+          }
+        }
+      } 
+    }
+  }
+}
+.palestrantes{
+  margin-top: 100px;
+  .title{
+    font-size: 54px;
+    color: $marrom-claro;
+    font-family: $fontLato;
+    text-transform: $textMaiusculo;
+    font-weight: 900;
+    margin-bottom: 40px;
+    .destaque{
+      color: $azulEscuro;
+    }
+  }
+  .card-deck{
+    .card{
+      background-color: transparent;
+      border:none;
+      .card-body{
+        text-align: center;
+        .card-title{
+          color: $azulEscuro;
+          text-transform: $textMaiusculo;
+          font-weight: 900;
+          font-size: 25px;
+          font-family: $fontLato;
+        }
+        .card-subtitle{
+          font-size: 25px;
+          font-weight: 900;
+          color:$marrom-claro;
+        }
+        .card-text{ 
+          margin-top: 25px;
+          font-size: 26px;
+          font-family: $fontLato;
+          font-weight: normal;
+          color:$marrom-claro;
+        }
+      }
+    }
+  }
+}
+.inscreva{
+  background-image: url('../img/fundo-inscreva.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: 100px;
+  height: 300px;
+  .centralizar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .title{
+      font-size: 54px;
+      font-family: $fontLato;
+      font-weight: 900;
+      color: #ffffff;
+    }
+    .btn-inscreva{
+        border: 2px solid #ffffff;
+        background-color:#ffffff;
+        box-shadow: 0px 9px 5.88px 0.12px rgba(48, 40, 36, 0.26);
+        width: 267px;
+        height: 72px;
+        color: $azulEscuro;
+        font-weight: 900;
+        text-transform: $textMaiusculo;
+        font-size: 30px;
+        border-radius: 38px;
+    }
+  }
+  
+}
+
+.rodape{
+  background-color: $marrom-claro;
+  padding: 15px;
+  height: 190px;
+  width: 100%;
+  .centralizar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}
